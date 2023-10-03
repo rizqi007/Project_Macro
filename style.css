@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 6px 5%;
+  background-color: #104c70;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.navbar a {
+  font-size: 1rem;
+  color: #fff;
+  margin-left: 4rem;
+}
+
+/* Beranda */
+.container-section {
+  margin-top: 25px;
+  background-image: url(img/gambar1.jpg);
+  height: 620px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.text {
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+  cursor: pointer;
+  margin-top: 20px;
+  background: #104c70;
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.button {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-size: 20px;
+  top: 50%;
+  position: absolute;
+  right: 0;
+  transform: translateY(-350%);
+  background-color: #104c70;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #6ca086;
+}
+
+.tombol {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-size: 21px;
+  top: 50%;
+  position: absolute;
+  right: 0;
+  transform: translateY(-490%);
+  background-color: #104c70;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.tombol:hover {
+  background-color: #6ca086;
+}
+
+/* Section */
+section {
+  padding-top: 10rem;
+}
+
+.card img {
+  width: auto;
+  height: auto;
+}
+
+/* Paragraf */
+.paragraf p {
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 15px;
+}
+
+.paragraf .pPertama {
+  padding-top: 50px;
+}
+
+/* banner */
+.banner {
+  border: 5px solid black;
+  margin: 50px;
+}
+
+.banner .atas {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.column i {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.column h5,
+p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
