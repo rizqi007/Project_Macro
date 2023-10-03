@@ -11,6 +11,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+section {
+  padding-top: 10rem;
+}
+
 /* Navbar */
 .header {
   position: fixed;
@@ -37,6 +41,53 @@
   color: #fff;
   margin-left: 4rem;
 }
+
+/* utama.html */
+.homePage {
+  background: linear-gradient(90deg, #104c70 50%, #fff 50%);
+}
+
+.containerHomepage {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kiri {
+  width: 50%;
+  height: auto;
+  color: #fff;
+  text-align: center;
+}
+
+.kiri h1 {
+  font-size: 65px;
+  padding-left: 30px;
+}
+
+.kiri p {
+  margin-top: 18em;
+}
+
+.kanan img {
+  margin-top: -10em;
+}
+
+.kanan a {
+  font-weight: 600;
+  border-radius: 40px;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 40px;
+  background-color: #104c70;
+  position: absolute;
+  right: 17%;
+  top: 88.5%;
+  cursor: pointer;
+}
+/* akhir utama.html */
 
 /* Beranda */
 .container-section {
@@ -107,11 +158,6 @@
 
 .tombol:hover {
   background-color: #6ca086;
-}
-
-/* Section */
-section {
-  padding-top: 10rem;
 }
 
 .card img {
