@@ -12,8 +12,10 @@
 }
 
 section {
-  padding-top: 10rem;
+  width: 100%;
+  height: auto;
 }
+
 
 /* Navbar */
 .header {
@@ -40,6 +42,7 @@ section {
   font-size: 1rem;
   color: #fff;
   margin-left: 4rem;
+  text-decoration: none;
 }
 
 /* utama.html */
@@ -90,10 +93,10 @@ section {
 /* akhir utama.html */
 
 /* Beranda */
-.container-section {
+.home-container {
   margin-top: 25px;
   background-image: url(img/gambar1.jpg);
-  height: 620px;
+  height: 100vh;
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
@@ -109,7 +112,7 @@ section {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background: rgba(0, 0, 0, 0.5);
+  /* background: rgba(0, 0, 0, 0.5); */
 }
 
 .btn {
@@ -129,7 +132,7 @@ section {
   top: 50%;
   position: absolute;
   right: 0;
-  transform: translateY(-350%);
+  transform: translateY(250%);
   background-color: #104c70;
   color: white;
   padding: 10px 20px;
@@ -148,7 +151,7 @@ section {
   top: 50%;
   position: absolute;
   right: 0;
-  transform: translateY(-490%);
+  transform: translateY(100%);
   background-color: #104c70;
   color: white;
   padding: 10px 20px;
@@ -160,62 +163,101 @@ section {
   background-color: #6ca086;
 }
 
-.card img {
-  width: auto;
-  height: auto;
-}
-
-/* Paragraf */
-.paragraf p {
-  text-align: justify;
-  padding-left: 50px;
-  padding-right: 50px;
-  font-size: 15px;
-}
-
-.paragraf .pPertama {
-  padding-top: 50px;
-}
-
-/* banner */
-.banner {
-  border: 5px solid black;
-  margin: 50px;
-}
-
-.banner .atas {
+/* Home */
+.home-kedua {
+  margin-top: 100px;
   display: flex;
-  justify-self: center;
-  align-items: center;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.home-kedua h3 {
+  width: 70%;
   text-align: center;
-  padding-top: 100px;
+  font-size: 35px;
+  font-weight: bold;
 }
 
-.column {
-  float: left;
-  width: 25%;
-  padding-top: 50px;
-  padding-bottom: 100px;
-}
-
-.column i {
+.home-kedua .icon-container {
   display: flex;
   justify-content: center;
-  text-align: center;
-  margin-bottom: 30px;
-  font-size: 40px;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.column h5,
-p {
+.icon-container .icon {
+  text-align: center;
+  width: 27em;
+  height: auto;
+  margin-top: 6rem;
+  margin-right: 60px;
+}
+
+.home-kedua .icon-container i {
+  font-size: 7rem;
+  background: #104C70;
+  padding: 4rem 4rem;
+  border-radius: 30px;
+  align-items: baseline;
+}
+
+.icon-container p {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* Miisi */
+.misi {
+  width: 100%;
+  height: 1000px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  background-color: #104C70;
+  padding: 5rem;
+  color: #fff;
+}
+
+.misi .container-misi .judul h5 {
+  font-weight: 700;
+  font-size: 50px;
   text-align: center;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.misi .container-misi .judul h4 {
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.row {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.isi-gambar {
+    flex: 1;
+    margin: 10px;
+    margin-top: 50px;
+    text-align: center;
+    border: 0.5px rgb(255, 255, 255) solid;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.isi-gambar img {
+    width: 100%;
+}
+
+.isi-gambar p {
+  margin-top: 30px;
+  border: 0.5px gray solid;
+  padding: 1rem;
+  background-color: #ffffff;
+  color: #104C70;
+  border-radius: 15px;
 }
