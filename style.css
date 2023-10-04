@@ -44,7 +44,7 @@ section {
   text-decoration: none;
 }
 
-/* utama.html */
+/* index.html */
 .homePage {
   background: linear-gradient(90deg, #104c70 50%, #fff 50%);
 }
@@ -90,7 +90,7 @@ section {
   top: 88.5%;
   cursor: pointer;
 }
-/* akhir utama.html */
+/* akhir index.html */
 
 /* Beranda */
 .home-container {
@@ -132,7 +132,7 @@ section {
   top: 50%;
   position: absolute;
   right: 0;
-  transform: translateY(250%);
+  transform: translateY(-450%);
   background-color: #104c70;
   color: white;
   padding: 10px 20px;
@@ -151,7 +151,7 @@ section {
   top: 50%;
   position: absolute;
   right: 0;
-  transform: translateY(100%);
+  transform: translateY(-300%);
   background-color: #104c70;
   color: white;
   padding: 10px 20px;
