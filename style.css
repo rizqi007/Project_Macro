@@ -16,7 +16,6 @@ section {
   height: auto;
 }
 
-
 /* Navbar */
 .header {
   position: fixed;
@@ -51,6 +50,7 @@ section {
 }
 
 .containerHomepage {
+  margin-top: 10em;
   width: 100%;
   height: auto;
   display: flex;
@@ -197,7 +197,7 @@ section {
 
 .home-kedua .icon-container i {
   font-size: 7rem;
-  background: #104C70;
+  background: #104c70;
   padding: 4rem 4rem;
   border-radius: 30px;
   align-items: baseline;
@@ -216,7 +216,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #104C70;
+  background-color: #104c70;
   padding: 5rem;
   color: #fff;
 }
@@ -234,23 +234,23 @@ section {
 }
 
 .row {
-    display: flex;
-    justify-content: center; 
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .isi-gambar {
-    flex: 1;
-    margin: 10px;
-    margin-top: 50px;
-    text-align: center;
-    border: 0.5px rgb(255, 255, 255) solid;
-    padding: 1rem;
-    border-radius: 10px;
+  flex: 1;
+  margin: 10px;
+  margin-top: 50px;
+  text-align: center;
+  border: 0.5px rgb(255, 255, 255) solid;
+  padding: 1rem;
+  border-radius: 10px;
 }
 
 .isi-gambar img {
-    width: 100%;
+  width: 100%;
 }
 
 .isi-gambar p {
@@ -258,6 +258,6 @@ section {
   border: 0.5px gray solid;
   padding: 1rem;
   background-color: #ffffff;
-  color: #104C70;
+  color: #104c70;
   border-radius: 15px;
 }
