@@ -261,3 +261,13 @@ section {
   color: #104c70;
   border-radius: 15px;
 }
+
+/* Footer index.html */
+.footer {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.footer p {
+  font-size: 20px;
+}
