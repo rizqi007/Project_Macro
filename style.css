@@ -46,16 +46,18 @@ section {
 
 /* index.html */
 .homePage {
+  box-sizing: border-box;
   background: linear-gradient(90deg, #104c70 50%, #fff 50%);
+
 }
 
 .containerHomepage {
   margin-top: 10em;
-  width: 90%;
-  height: auto;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: row;
+  height: auto;
+
 }
 
 .kiri {
@@ -75,10 +77,8 @@ section {
 }
 
 .kanan img {
-  margin-top: -10em;
-  margin-left: 130px;
-  margin-bottom: 500px;
-  height: 500px;
+  margin: -90px 0 -100px 100px;
+  height: 75vh;
 }
 
 .kanan a {
