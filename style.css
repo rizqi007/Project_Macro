@@ -11,7 +11,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-section {
+main {
   width: 100%;
   height: auto;
 }
@@ -43,57 +43,6 @@ section {
   margin-left: 4rem;
   text-decoration: none;
 }
-
-/* index.html */
-.homePage {
-  box-sizing: border-box;
-  background: linear-gradient(90deg, #104c70 50%, #fff 50%);
-
-}
-
-.containerHomepage {
-  margin-top: 10em;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  height: auto;
-
-}
-
-.kiri {
-  width: 50%;
-  height: auto;
-  color: #fff;
-  text-align: center;
-}
-
-.kiri h1 {
-  font-size: 65px;
-  padding-left: 30px;
-}
-
-.kiri p {
-  margin-top: 18em;
-}
-
-.kanan img {
-  margin: -90px 0 -100px 100px;
-  height: 75vh;
-}
-
-.kanan a {
-  font-weight: 600;
-  border-radius: 40px;
-  padding: 10px 20px;
-  color: #fff;
-  font-size: 40px;
-  background-color: #104c70;
-  position: absolute;
-  right: 18%;
-  top: 88.5%;
-  cursor: pointer;
-}
-/* akhir index.html */
 
 /* Beranda */
 .home-container {
@@ -212,118 +161,199 @@ section {
   font-weight: 700;
 }
 
-/* Miisi */
+/* Misi */
 .misi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10em;
+}
+
+.row-misi {
+  text-align: center;
+  border: 3px black solid;
+  padding: 40px 100px 70px 60px;
+  border-radius: 40px;
+}
+
+.judul-misi {
+  font-size: 40px;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+.paragraf-misi {
+  font-style: italic;
+  font-size: 27px;
+  margin-top: 30px;
+}
+
+.img-misi figure {
+  display: inline-block;
+  width: 20vw;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.img-misi img {
+  width: 20vw;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+/* Footer*/
+footer {
+  background-color: #104c70;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: white;
+}
+.isi-container-footer {
+  margin-bottom: 20px;
+}
+
+.container-footer .isi-container-footer i {
+  font-size: 40px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.text-container-footer {
+  font-size: 20px;
+}
+
+/*Akhir CSS Beranda -------------------------------------------------------------------------------------------------------------*/
+
+/* Product Css ------------------------------------------------------------------------------------------------------------------------*/
+
+.product {
+  background-image: url(img/product.jpeg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.container-product {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100vh;
+}
+
+.row-product {
+  text-align: center;
+  padding-top: 35vh;
+  color: #fff;
+}
+
+.row-product h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.row-product .search {
+  margin-top: 30px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #104c70;
-  padding: 5rem;
-  color: #fff;
 }
 
-.misi .container-misi .judul h5 {
-  font-weight: 700;
-  font-size: 50px;
-  text-align: center;
-}
-
-.misi .container-misi .judul h4 {
-  text-align: center;
-  font-size: 30px;
-  font-style: italic;
-}
-
-.row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.isi-gambar {
-  flex: 1;
-  margin: 10px;
-  margin-top: 50px;
-  text-align: center;
-  border: 0.5px rgb(255, 255, 255) solid;
-  padding: 1rem;
+.row-product form,
+input {
+  padding: 15px;
+  width: 50%;
   border-radius: 10px;
 }
 
-.isi-gambar img {
-  width: 100%;
+.row-product form,
+button {
+  padding: 15px;
+  width: 7%;
+  float: right;
+  margin-left: 15px;
+  border-radius: 10px;
+  font-size: 20px;
 }
 
-.isi-gambar p {
-  margin-top: 30px;
-  border: 0.5px gray solid;
-  padding: 1rem;
-  background-color: #ffffff;
-  color: #104c70;
-  border-radius: 15px;
-}
-
-/* Footer index.html */
-.site-footer {
+.button-product {
   background-color: #104c70;
-  padding: 45px 0 20px;
-  font-size: 15px;
-  line-height: 24px;
   color: #fff;
-}
-.site-footer hr {
-  border-top-color: #bbb;
-  opacity: 0.5;
-}
-.site-footer hr.small {
-  margin: 20px 0;
-}
-.site-footer h6 {
-  color: #fff;
-  font-size: 16px;
-  text-transform: uppercase;
-  margin-top: 5px;
-  letter-spacing: 2px;
-}
-.site-footer a {
-  color: #fff;
-}
-.site-footer a:hover {
-  color: #3366cc;
-  text-decoration: none;
-}
-.footer-links {
-  padding-left: 0;
-  list-style: none;
-}
-.footer-links li {
-  display: block;
 }
 
-.footer-links a:active,
-.footer-links a:focus,
-.footer-links a:hover {
-  color: #cc336e;
+/* Market */
+.market {
+  box-sizing: border-box;
+  margin-top: 7rem;
+  margin-bottom: 10rem;
+}
+
+.market h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.container-market {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-market {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-market figure {
+  border: 2px #104c70 solid;
+  display: inline-block;
+  width: 47.5vh;
+  margin-top: 50px;
+  margin-left: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.img-market img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.img-market figcaption {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.img-market figcaption i {
+  margin-right: 7px;
+}
+
+/* css pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.pagination a {
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  float: left;
+  padding: 8px 16px;
   text-decoration: none;
 }
-.footer-links.inline li {
-  display: inline-block;
+
+.pagination a.active {
+  background-color: #104c70;
+  color: #fff;
+  border-radius: 5px;
 }
-.copyright-text {
-  margin: 0;
-}
-@media (max-width: 991px) {
-  .site-footer [class^="col-"] {
-    margin-bottom: 30px;
-  }
-}
-@media (max-width: 767px) {
-  .site-footer {
-    padding-bottom: 0;
-  }
-  .site-footer .copyright-text,
-  .site-footer .social-icons {
-    text-align: center;
-  }
+
+.pagination a:hover:not(.active) {
+  background-color: #d4d5d2;
 }
