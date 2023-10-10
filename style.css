@@ -453,15 +453,26 @@ button {
 .img-market-detail figure {
   border: 2px #104c70 solid;
   display: inline-block;
-  width: 47.5vh;
-  margin-top: 20px;
-  margin-left: 20px;
+  width: 500px;
+  margin-top: 40px;
+  margin-left: 10px;
   padding: 0px;
   border-radius: 20px;
 }
 .img-market-detail img {
   width: 100%;
   border-radius: 20px;
+}
+.right{
+  text-align: left;
+  margin-left: 70px;
+  
+}
+.right b{
+  margin: 20px 0px 20px 0px;
+}
+.right h3{
+  margin: 10px;
 }
 
 .detail-product {
