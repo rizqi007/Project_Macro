@@ -17,39 +17,59 @@ main {
 }
 
 /* Navbar */
-.header {
-  position: fixed;
-  top: 0;
-  left: 0;
+nav {
+  background: #104c70;
+  height: 80px;
   width: 100%;
-  padding: 6px 5%;
-  background-color: #104c70;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  z-index: 100;
+  position: fixed;
+  z-index: 999;
 }
-
-.logo {
-  font-size: 2.5rem;
-  color: #fff;
-  font-weight: 600;
+label.logo {
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,
+a:hover {
+  transition: 0.5s;
+}
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
   cursor: pointer;
+  display: none;
 }
-
-.navbar a {
-  font-size: 1rem;
-  color: #fff;
-  margin-left: 4rem;
-  text-decoration: none;
+#check {
+  display: none;
 }
 
 /* Beranda */
 .home-container {
-  margin-top: 25px;
+  margin-top: 0px;
   background-image: url(img/gambar1.jpg);
   height: 100vh;
-  position: relative;
+  position: inherit;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -269,9 +289,9 @@ input {
 .row-product form,
 button {
   padding: 15px;
-  width: 7%;
+  width: 10%;
   float: right;
-  margin-left: 15px;
+  margin-left: 10px;
   border-radius: 10px;
   font-size: 20px;
 }
@@ -282,31 +302,25 @@ button {
 }
 
 /* Market */
-.market {
+
+
+.card {
   box-sizing: border-box;
-  margin-top: 7rem;
-  margin-bottom: 10rem;
+  margin-left: 20px;
 }
 
-.market h1 {
+.card h4 {
   text-align: center;
   font-weight: bold;
 }
 
-.container-market {
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.row-market {
-  width: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.img-market figure {
+.card  {
   border: 2px #104c70 solid;
   display: inline-block;
   width: 47.5vh;
@@ -316,20 +330,27 @@ button {
   border-radius: 20px;
 }
 
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.img-market figure {
+  border: 2px #104c70 solid;
+  display: inline-block;
+  width: 47.5vh;
+  margin-top: 50px;
+  margin-left: 20px;
+  padding: 0px;
+  border-radius: 20px;
+}
 .img-market img {
   width: 100%;
   border-radius: 20px;
 }
 
-.img-market figcaption {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
-}
 
-.img-market figcaption i {
-  margin-right: 7px;
-}
 
 /* css pagination */
 .pagination {
@@ -356,4 +377,134 @@ button {
 
 .pagination a:hover:not(.active) {
   background-color: #d4d5d2;
+}
+
+/* responsive*/
+
+@media (max-width: 952px) {
+  label.logo {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px) {
+  .checkbtn {
+    display: block;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #104c70;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  a:hover,
+  a.active {
+    background: none;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+  h1 {
+    font-size: 20px;
+    margin-left: 30px;
+  }
+  button {
+    margin-left: 10px;
+  }
+  p {
+    font-size: 15px;
+  }
+  p {
+    font-size: 15px;
+    /* margin-left: 60px; */
+  }
+  p .text-container-footer {
+    font-size: 15px;
+  }
+  i {
+    margin-left: 60px;
+  }
+  p .paragraf-misi {
+    font-size: 2000px;
+  }
+  figcaption {
+    font-size: 10px;
+  }
+}
+
+/*detail product*/
+
+
+.img-market-detail figure {
+  border: 2px #104c70 solid;
+  display: inline-block;
+  width: 47.5vh;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 0px;
+  border-radius: 20px;
+}
+.img-market-detail img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.detail-product {
+  width: 100%;
+  height: 110vh;
+  margin-top: 10%;
+
+}
+
+.container-detail-product {
+  width: 100%;
+  height: 100vh;
+}
+
+.row-detail-product {
+  text-align: center;
+  padding-top: 15vh;
+  color: #104c70;
+}
+
+.row-detail-product h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#button {
+  width: 100%;
+  padding: 10px 0 10px 0;
+}
+#button a{
+  text-decoration: none;
+  color: #ecf0f1;
+  background-color: #104c70;
+  width: 100px;
+  padding: 5px 10px;
+  margin: 5px; 
+  border-radius: 2px;
+
+}
+
+figcaption {
+  display: flex;
+  justify-content: start;
+  margin-top: 10px;
+  margin-left: 430px;
 }
