@@ -358,6 +358,7 @@ button {
   justify-content: center;
   align-items: center;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .pagination a {
@@ -377,6 +378,39 @@ button {
 
 .pagination a:hover:not(.active) {
   background-color: #d4d5d2;
+}
+/*gallery html */
+.home-gallery {
+  margin-top: 0px;
+  background-image: url(https://3.bp.blogspot.com/-Y8cnswka0Oo/XL9CRhzptRI/AAAAAAAAB8I/HZ6Kh3un3KUVh1DdV7aAraQrylY1Thr0ACPcBGAYYCw/s1600/laut.jpg);
+  height: 100vh;
+  position: inherit;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.isi-content{
+  width:500px;
+  height: 500px;
+  padding: 0px;
+  
+}
+.isi-content img{
+  width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.card-abu{
+  color: #78858F;
+}
+.card-text{
+  font-size: 16px;
+}
+.content-2{
+  border: 2px solid blue;
+  border-radius: 20px ;
+ 
 }
 
 /* responsive*/
