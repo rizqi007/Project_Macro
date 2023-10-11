@@ -382,12 +382,15 @@ button {
 /*gallery html */
 .home-gallery {
   margin-top: 0px;
-  background-image: url(https://3.bp.blogspot.com/-Y8cnswka0Oo/XL9CRhzptRI/AAAAAAAAB8I/HZ6Kh3un3KUVh1DdV7aAraQrylY1Thr0ACPcBGAYYCw/s1600/laut.jpg);
+  background-image: url(img/baground-gallery.jpg);
   height: 100vh;
   position: inherit;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+.home-gallery .text{
+  padding-top: 50px;
 }
 .isi-content{
   width:500px;
@@ -411,6 +414,10 @@ button {
   border: 2px solid blue;
   border-radius: 20px ;
  
+}
+.home-gallery2{
+  margin: 150px 0px 50px 0px;
+  color: #104c70;
 }
 
 /* responsive*/
