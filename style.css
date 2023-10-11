@@ -514,6 +514,19 @@ button {
   border-radius: 10px;
   margin-left: 80px;
 }
+/*konten kiri */
+.konten-kiri{
+  margin-top: 15px;
+  border-radius: 20px;
+  border: 2px solid #104C70;
+
+}
+.konten-kiri h3{
+  color: #104C70;
+  font-weight: bold;
+  margin-top: 30px;
+
+}
 /*penutup artikel.html/*
 
 
