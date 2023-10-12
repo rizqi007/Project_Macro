@@ -46,6 +46,7 @@ nav ul li a {
   padding: 7px 13px;
   border-radius: 3px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 a.active,
 a:hover {
@@ -161,8 +162,7 @@ a:hover {
 }
 
 .home-kedua h3 {
-  width: 100%;
-  height: auto;
+  width: 70%;
   text-align: center;
   font-size: 35px;
   font-weight: bold;
@@ -180,7 +180,7 @@ a:hover {
   width: 27em;
   height: auto;
   margin-top: 6rem;
- padding-left: 1%;
+  margin-right: 60px;
 }
 
 .home-kedua .icon-container i {
@@ -434,9 +434,17 @@ button {
 }
 .content-2{
   border: 2px solid blue;
-  border-radius: 20px ;
+  border-radius: 30px ;
  
 }
+
+.video-gallery {
+  width: 60%;
+  height: 60%;
+  border-radius: 30px;
+  margin-left: -0.1%;
+}
+
 .home-gallery2{
   margin: 150px 0px 50px 0px;
   color: #104c70;
