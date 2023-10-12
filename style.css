@@ -16,6 +16,17 @@ main {
   height: auto;
 }
 
+/* Scroll Bar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: rgb(226, 241, 88);
+  border-radius: 5rem;
+}
+
 /* Navbar */
 nav {
   background: #104c70;
@@ -45,9 +56,21 @@ nav ul li a {
   font-size: 17px;
   padding: 7px 13px;
   border-radius: 3px;
-  text-transform: uppercase;
   text-decoration: none;
 }
+
+nav ul li a:hover {
+  color: lightblue;
+}
+
+nav ul li a.aktif {
+  background-color: lightblue;
+  color: #104C70;
+  border-radius: 7px;
+  font-weight: bold;
+
+}
+
 a.active,
 a:hover {
   transition: 0.5s;
@@ -103,53 +126,6 @@ a:hover {
   font-size: 60px;
 }
 
-.btn {
-  cursor: pointer;
-  margin-top: 20px;
-  background: #104c70;
-  padding: 10px;
-  color: #fff;
-  font-size: 20px;
-  border-radius: 10px;
-}
-
-.button {
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  font-size: 20px;
-  top: 50%;
-  position: absolute;
-  right: 0;
-  transform: translateY(-450%);
-  background-color: #104c70;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-.button:hover {
-  background-color: #6ca086;
-}
-
-.tombol {
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  font-size: 21px;
-  top: 50%;
-  position: absolute;
-  right: 0;
-  transform: translateY(-300%);
-  background-color: #104c70;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-.tombol:hover {
-  background-color: #6ca086;
-}
 
 /* Home */
 .home-kedua {
@@ -317,14 +293,28 @@ button {
   color: #fff;
 }
 
-
-
-/* Market */
+.fa-solid {
+  margin-right: 10px;
+}
 
 
 .card {
   box-sizing: border-box;
   margin-left: 20px;
+  border: 2px #104c70 solid;
+  display: inline-block;
+  width: 47.5vh;
+  margin-top: 50px;
+  margin-left: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.card:hover {
+  background-color: #104C70;
+  color: white;
+  transition: .5s;
 }
 
 .card h4 {
@@ -338,15 +328,6 @@ button {
   align-items: center;
 }
 
-.card  {
-  border: 2px #104c70 solid;
-  display: inline-block;
-  width: 47.5vh;
-  margin-top: 50px;
-  margin-left: 20px;
-  padding: 20px;
-  border-radius: 20px;
-}
 
 .card img {
   width: 100%;
@@ -354,18 +335,18 @@ button {
   align-items: center;
 }
 
-.img-market figure {
-  border: 2px #104c70 solid;
-  display: inline-block;
-  width: 47.5vh;
-  margin-top: 50px;
-  margin-left: 20px;
-  padding: 0px;
-  border-radius: 20px;
-}
-.img-market img {
-  width: 100%;
-  border-radius: 20px;
+
+.card #keranjang {
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  font-size: 27px;
+  z-index: 1;
+  padding: 10px;
+  border: 0.2rem white solid;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
 }
 
 
@@ -631,8 +612,8 @@ button {
 }
 .right{
   text-align: left;
-  margin-left: 70px;
-  
+  margin-left: 16%;
+  display: flex;
 }
 .right b{
   margin: 20px 0px 20px 0px;
@@ -645,10 +626,24 @@ button {
   width: 100%;
   height: 110vh;
   margin-top: 10%;
-
 }
 
+.detailProduk {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.detailProduk .back {
+  position: absolute;
+  margin-left: -55%;
+  font-size: 30px;
+  margin-top: -0.2%;
+}
+
+
 .container-detail-product {
+  position: relative;
   width: 100%;
   height: 100vh;
 }
@@ -684,4 +679,29 @@ figcaption {
   justify-content: start;
   margin-top: 10px;
   /* margin-left: 430px; */
+}
+
+
+
+
+
+
+
+
+.scroll-container {
+  width: 100%;
+  height: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(226, 241, 88) transparent;
+}
+
+.scroll-container::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background: rgb(226, 241, 88);
+  border-radius: 5rem;
 }
