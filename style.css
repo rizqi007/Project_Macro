@@ -445,6 +445,13 @@ button {
   margin-left: -0.1%;
 }
 
+.video-gallery1 {
+  width: 60%;
+  height: 60%;
+  border-radius: 30px;
+  margin-left: -0.9%;
+}
+
 .home-gallery2{
   margin: 150px 0px 50px 0px;
   color: #104c70;
