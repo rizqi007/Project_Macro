@@ -677,7 +677,7 @@ button {
 }
 .right {
   text-align: left;
-  margin-left: 9%;
+  margin-left: 16%;
   display: flex;
 }
 .right b {
@@ -937,6 +937,7 @@ body {
   padding-bottom: 18px;
   margin-bottom: 35px;
   border-bottom: 1px solid #dde3ec;
+  position: relative;
 }
 .formbold-steps ul {
   padding: 0;
@@ -1092,4 +1093,11 @@ body {
 }
 .formbold-btn:hover {
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.button-back {
+  font-size: 2.3rem;
+  position: absolute;
+  top: -32%;
+  color: #104C70;
 }
