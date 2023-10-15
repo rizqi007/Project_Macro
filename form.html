@@ -1,160 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<!-- Required meta tags-->
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-		<!-- Title Page-->
-		<title>Aquatech.id | Login</title>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Title Page-->
+    <title>Aquatech.id | Login</title>
 
-		<!-- Main CSS-->
-		<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-		<link href="style.css" rel="stylesheet" media="all" />
-	</head>
+    <!-- Main CSS-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet" media="all" />
+  </head>
 
-	<body>
-		
-		<div class="formbold-main-wrapper">
+  <body>
+    <div class="formbold-main-wrapper">
+      <div class="formbold-form-wrapper">
+        <form method="GET" onsubmit="confirmInput()" action="product.html">
+          <div class="formbold-steps">
+            <div class="button-back">
+              <a href="product.html"
+                ><i class="bx bx-left-arrow-alt" style="color: black"></i
+              ></a>
+            </div>
+            <ul>
+              <li class="formbold-step-menu1 active" style="margin-left: 40%">
+                Aquatech.id
+              </li>
+            </ul>
+          </div>
 
-			<div class="formbold-form-wrapper">
-				
-				<form method="POST">
-					<div class="formbold-steps">
-						<div class="button-back">
-							<a href="product.html"><i class='bx bx-left-arrow-alt' style="color: black;"></i></a>
-						</div>
-						<ul>
-							<li class="formbold-step-menu1 active" style="margin-left: 40%">Aquatech.id</li>
-						</ul>
-					</div>
+          <div class="formbold-form">
+            <div class="formbold-input-flex">
+              <div>
+                <label for="firstname" class="formbold-form-label">
+                  Nama Depan
+                </label>
+                <input
+                  id="fname"
+                  type="text"
+                  name="firstname"
+                  placeholder="Masukan nama depan anda"
+                  id="firstname"
+                  class="formbold-form-input"
+                />
+              </div>
+              <div>
+                <label for="lastname" class="formbold-form-label"> Kota </label>
+                <input
+                  type="text"
+                  name="lastname"
+                  placeholder="Masukan nama kota anda"
+                  id="lastname"
+                  class="formbold-form-input"
+                />
+              </div>
+            </div>
+            <div class="formbold-form">
+              <div class="formbold-input-flex">
+                <div>
+                  <label for="firstname" class="formbold-form-label">
+                    Nama Belakang
+                  </label>
+                  <input
+                    type="text"
+                    name="firstname"
+                    placeholder="Masukan nama belakang anda"
+                    id="firstname"
+                    class="formbold-form-input"
+                  />
+                </div>
+                <div>
+                  <label for="lastname" class="formbold-form-label">
+                    Provinsi
+                  </label>
+                  <input
+                    type="text"
+                    name="lastname"
+                    placeholder="Masukan Provinsi anda"
+                    id="lastname"
+                    class="formbold-form-input"
+                  />
+                </div>
+              </div>
+              <div class="formbold-form-step">
+                <div class="formbold-input-flex">
+                  <div>
+                    <label for="firstname" class="formbold-form-label">
+                      Email
+                    </label>
+                    <input
+                      type="email"
+                      name="firstname"
+                      placeholder="Masukan email anda"
+                      id="firstname"
+                      class="formbold-form-input"
+                    />
+                  </div>
+                  <div>
+                    <select
+                      class="form-select form-select-md mb-5"
+                      aria-label=".form-select-lg example"
+                    >
+                      <option selected>Kode Produk</option>
+                      <option value="1">BA-KM08 - Ikan Kakap Merah</option>
+                      <option value="2">SS-IB08 - Ikan Bawal</option>
+                      <option value="3">BL-IS01 - Ikan Sarden</option>
+                      <option value="4">SS-IC05 - Ikan Cakalang</option>
+                      <option value="5">SU-IP07 - Ikan Patin</option>
+                      <option value="6">LA-IB05 - Ikan Bandeng</option>
+                      <option value="7">CR-IT02 - Ikan Trout</option>
+                      <option value="8">NT-ITU09 - Ikan Tuna</option>
+                    </select>
+                  </div>
+                </div>
 
-					<div class="formbold-form">
-						<div class="formbold-input-flex">
-							<div>
-								<label for="firstname" class="formbold-form-label"> Nama Depan </label>
-								<input
-									type="text"
-									name="firstname"
-									placeholder="Masukan nama depan anda"
-									id="firstname"
-									class="formbold-form-input"
-								/>
-							</div>
-							<div>
-								<label for="lastname" class="formbold-form-label"> Kota </label>
-								<input
-									type="text"
-									name="lastname"
-									placeholder="Masukan nama kota anda"
-									id="lastname"
-									class="formbold-form-input"
-								/>
-							</div>
-						</div>
-						<div class="formbold-form">
-							<div class="formbold-input-flex">
-								<div>
-									<label for="firstname" class="formbold-form-label"> Nama Belakang </label>
-									<input
-										type="text"
-										name="firstname"
-										placeholder="Masukan nama belakang anda"
-										id="firstname"
-										class="formbold-form-input"
-									/>
-								</div>
-								<div>
-									<label for="lastname" class="formbold-form-label"> Provinsi </label>
-									<input
-										type="text"
-										name="lastname"
-										placeholder="Masukan Provinsi anda"
-										id="lastname"
-										class="formbold-form-input"
-									/>
-								</div>
-							</div>
-							<div class="formbold-form-step">
-								<div class="formbold-input-flex">
-									<div>
-										<label for="firstname" class="formbold-form-label"> Email </label>
-										<input
-											type="email"
-											name="firstname"
-											placeholder="Masukan email anda"
-											id="firstname"
-											class="formbold-form-input"
-										/>
-									</div>
-									<div>
-										<label for="lastname" class="formbold-form-label"> Kode Produk </label>
-										<input
-											type="text"
-											name="lastname"
-											placeholder="Masukan kode produk"
-											id="lastname"
-											class="formbold-form-input"
-										/>
-									</div>
-								</div>
+                <div class="formbold-input-flex">
+                  <div>
+                    <label for="dob" class="formbold-form-label">
+                      Nomor Ponsel
+                    </label>
+                    <input
+                      type="number"
+                      name="dob"
+                      id="dob"
+                      class="formbold-form-input"
+                      placeholder="Masukan nomor ponsel anda"
+                    />
+                  </div>
+                  <div>
+                    <label for="address" class="formbold-form-label">
+                      Catatan
+                    </label>
+                    <input
+                      type="text"
+                      name="address"
+                      id="address"
+                      placeholder="Masukan catatan anda untuk agent"
+                      class="formbold-form-input"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <div class="formbold-input-flex">
+                    <div>
+                      <label
+                        for="dob"
+                        class="formbold-form-label text-center"
+                        style="margin-right: 80%"
+                      >
+                        Alamat
+                      </label>
+                      <input
+                        type="teks"
+                        name="dob"
+                        id="dob"
+                        class="formbold-form-input"
+                        placeholder="Masukan alamat anda"
+                      />
+                    </div>
+                    <button
+                      class="formbold-confirm-btn active"
+                      style="
+                        margin-left: 20%;
+                        height: 50px;
+                        width: 100px;
+                        margin-top: 30px;
+                      "
+                    >
+                      Kirim
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div></div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
 
-								<div class="formbold-input-flex">
-									<div>
-										<label for="dob" class="formbold-form-label"> Nomor Ponsel </label>
-										<input
-											type="number"
-											name="dob"
-											id="dob"
-											class="formbold-form-input"
-											placeholder="Masukan nomor ponsel anda"
-										/>
-									</div>
-									<div>
-										<label for="address" class="formbold-form-label"> Catatan </label>
-										<input
-											type="text"
-											name="address"
-											id="address"
-											placeholder="Masukan catatan anda untuk agent"
-											class="formbold-form-input"
-										/>
-									</div>
-								</div>
-								<div>
-									<div class="formbold-input-flex" >
-										<div>
-											<label for="dob" class="formbold-form-label text-center"> Alamat </label>
-											<input
-												type="teks"
-												name="dob"
-												id="dob"
-												class="formbold-form-input"
-												placeholder="Masukan alamat anda"
-											/>
-										</div>
-										<button
-												class="formbold-confirm-btn active"
-												href="product.html"
-												style="margin-left: 20%;  height: 50px; width: 100px; margin-top: 30px"
-											>
-												Kirim
-											</button>
-										
-									</div>
-								
-									
-								</div>
-							</div>
-							<div></div>
-						</div>
-					</div>
-				</form>
-			</div>
-		</div>
-
-		<!-- Main JS-->
-		<script src="script.js"></script>
-	</body>
-	<!-- This templates was made by Colorlib (https://colorlib.com) -->
+    <!-- Main JS-->
+    <script src="script.js"></script>
+  </body>
+  <!-- This templates was made by Colorlib (https://colorlib.com) -->
 </html>
 <!-- end document-->
