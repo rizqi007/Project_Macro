@@ -613,6 +613,7 @@ button {
 {
   background-color: #104c70;
   color: white;
+  
   transition: 0.5s;
   box-shadow: 6px 7px black;
 }
@@ -623,6 +624,7 @@ button {
   margin-top: 15px;
   border-radius: 20px;
   border: 2px solid #104c70;
+  margin-left: 50px;
 }
 
 .konten-kiri span:hover {
@@ -635,6 +637,128 @@ button {
   font-weight: bold;
   margin-top: 30px;
 }
+.konten-kiri1{
+  margin-top: 60px;
+}
+.konten-kiri2{
+  margin-top: 30px;
+}
+.isi-kiri1,
+.isi-kiri3,
+.isi-kiri5,
+.isi-kiri7,
+.isi-kiri9,
+.isi-kiri11,
+.isi-kiri13{
+  border: 2px solid #104c70;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.isi-kiri2,
+.isi-kiri4,
+.isi-kiri6,
+.isi-kiri8,
+.isi-kiri10,
+.isi-kiri12,
+.isi-kiri14{
+ 
+  border: 2px solid #104c70;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+.isi-kiri1{
+  padding: 5px 30px;
+
+}
+.isi-kiri2{
+  padding: 5px 60px;
+  
+}
+.isi-kiri3,
+.isi-kiri6,
+.isi-kiri8,
+.isi-kiri9,
+.isi-kiri10{
+  padding: 5px 35px;
+  
+}
+.isi-kiri4,
+.isi-kiri5,
+.isi-kiri13{
+  padding: 5px 50px;
+  
+}
+.isi-kiri7{
+  padding: 5px 45px;
+  
+}
+.isi-kiri11,
+.isi-kiri14{
+  padding: 5px 40px;
+  
+}
+.isi-kiri12{
+  padding: 5px 20px;
+}
+.artikel1{
+  margin-top: 60px;
+}
+.artikel2{
+  margin-top: 30px;
+}
+.isi-artikel1,
+.isi-artikel3,
+.isi-artikel5,
+.isi-artikel7,
+.isi-artikel9,
+.isi-artikel11,
+.isi-artikel13{
+  border: 2px solid #104c70; 
+  border-radius: 10px; 
+  margin-right: 20px;
+}
+.isi-artikel2,
+.isi-artikel4,
+.isi-artikel6,
+.isi-artikel8,
+.isi-artikel10,
+.isi-artikel12,
+.isi-artikel14{
+  border: 2px solid #104c70; 
+  border-radius: 10px; 
+  margin-left: 20px;
+}
+.isi-artikel1{
+  padding: 5px 30px;
+}
+.isi-artikel2{
+  padding: 5px 60px;
+}
+.isi-artikel3,
+.isi-artikel6,
+.isi-artikel8,
+.isi-artikel9,
+.isi-artikel10{
+  padding: 5px 35px;
+}
+.isi-artikel4,
+.isi-artikel5,
+.isi-artikel13{
+  padding: 5px 50px;
+}
+.isi-artikel7{
+  padding: 5px 45px;
+}
+.isi-artikel11,
+.isi-artikel14{
+  padding: 5px 40px;
+}
+.isi-artikel12{
+  padding: 5px 20px;
+}
+
+
+
 /*penutup artikel.html/*
 
 
