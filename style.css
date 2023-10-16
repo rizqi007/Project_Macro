@@ -1081,6 +1081,67 @@ figcaption {
   object-fit: cover;
 }
 
+/* Detail Artikel */
+.judul-artikel {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #104c70;
+  padding-top: 150px;
+  margin-bottom: 36px;
+  }
+  
+  .logo-back {
+  position: absolute;    
+  top: 20px; 
+  left: 20px; 
+  width: 50px; 
+  height: auto;
+  padding-top: 125px;
+  margin-left: 30px;
+  cursor: pointer;
+  }
+  
+  .container-berita {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+      position: relative;
+  }
+  
+  .sub-berita {
+      color: #104c70;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+  }
+  
+  .sosial-media {
+      position: absolute;
+      top: 20px;
+      right: 20px; 
+  }
+  
+  .sosial-media i {
+      font-size: 36px; 
+      color: #104c70; 
+  }
+  
+  .gambar-berita {
+      width: 100%;
+      height: 500px;
+      margin-top: 75px;
+  }
+  
+  .detail-berita {
+      font-size: 14px;
+      color: #000;
+      text-align: justify;
+      margin-top: 20px;
+  }
+
+
 /* form */
 * {
   margin: 0;
