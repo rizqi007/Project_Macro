@@ -495,6 +495,10 @@ button {
   color: aliceblue;
   font-size: 20px;
 }
+.home-gallery p{
+  max-width: 1000px; 
+  margin-top: 30px
+}
 
 .isi-content {
   width: 500px;
@@ -520,6 +524,7 @@ button {
 }
 .card-img-top {
   padding-right: 0px;
+  height: 240px;
 }
 .content-2 {
   border: 2px solid blue;
@@ -599,6 +604,10 @@ button {
 .button-artikel {
   background-color: #104c70;
   color: #fff;
+}
+.row_a{
+  text-decoration: none;
+  color: inherit;
 }
 
 .search-artikel {
@@ -971,6 +980,9 @@ button {
   padding: 5px 10px;
   margin: 5px;
   border-radius: 2px;
+}
+article{
+  text-align: justify;
 }
 
 figcaption {
