@@ -209,16 +209,18 @@ a:hover {
 
 .img-misi figure {
   display: inline-block;
-  width: 20vw;
+  width: 50%;
   margin-left: 40px;
   margin-top: 40px;
   font-family: "Poppins";
   font-weight: bold;
+  margin: auto;
+  margin-bottom: 20px;
 }
 
 .img-misi img {
-  width: 20vw;
-  height: 15vw;
+  width: 100%;
+  height: auto;
   border-radius: 30px;
   margin-bottom: 20px;
 }
@@ -336,6 +338,62 @@ button {
   box-shadow: 4px 4px 5px #104c70;
 }
 
+.card1 {
+  box-sizing: border-box;
+  margin-left: 20px;
+  border: 4px #104c70 solid;
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 30px;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+  width: 60%;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.hr1 {
+  border: 2px #104c70 solid;
+  width: 100%;
+}
+.card2 {
+  box-sizing: border-box;
+  margin-left: 5px;
+  border: 4px #104c70 solid;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.card3 {
+  box-sizing: border-box;
+  margin-left: 5px;
+  border: 4px #104c70 solid;
+  display: inline-block;
+  margin-top: 20px;
+  /* margin-left: 30px; */
+  margin-right: 40px;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.card-header1 {
+  color: #104c70;
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
+}
+
 .card:hover {
   background-color: #104c70;
   color: white;
@@ -437,6 +495,10 @@ button {
   color: aliceblue;
   font-size: 20px;
 }
+.home-gallery p{
+  max-width: 1000px; 
+  margin-top: 30px
+}
 
 .isi-content {
   width: 500px;
@@ -462,6 +524,7 @@ button {
 }
 .card-img-top {
   padding-right: 0px;
+  height: 240px;
 }
 .content-2 {
   border: 2px solid blue;
@@ -515,9 +578,11 @@ button {
   color: #104c70;
 }
 /*artikel.html*/
+
 .artikelH2 h2 {
-  margin-top: 6%;
-  margin-left: 6.5%;
+  margin-top: 10%;
+  margin-left: 10%;
+  color: #104c70;
 }
 
 .artikel {
@@ -539,6 +604,10 @@ button {
 .button-artikel {
   background-color: #104c70;
   color: #fff;
+}
+.row_a{
+  text-decoration: none;
+  color: inherit;
 }
 
 .search-artikel {
@@ -567,7 +636,6 @@ button {
   border-radius: 20px 0px 0px 20px;
 }
 
-
 .content-artikel {
   font-weight: bold;
   margin-bottom: 20px;
@@ -577,10 +645,10 @@ button {
   font-size: 10px;
   font-weight: 500;
 }
-.content-artikel h6{
+.content-artikel h6 {
   font-weight: bold;
 }
-.content-artikel p:hover{
+.content-artikel p:hover {
   color: white;
 }
 .content-artikel .user1 {
@@ -598,26 +666,23 @@ button {
   top: 2%;
   right: 2%;
 }
-.content-artikel span:hover{
+.content-artikel span:hover {
   background-color: white;
-  color:#104c70 ;
+  color: #104c70;
 }
 
 .content-artikel p,
-.content-artikel h6{
+.content-artikel h6 {
   margin: 10px 0px 0px 10px;
 }
 
-
-.content-artikel:hover
-{
+.content-artikel:hover {
   background-color: #104c70;
   color: white;
-  
+
   transition: 0.5s;
   box-shadow: 6px 7px black;
 }
-
 
 /*konten kiri */
 .konten-kiri {
@@ -637,10 +702,10 @@ button {
   font-weight: bold;
   margin-top: 30px;
 }
-.konten-kiri1{
+.konten-kiri1 {
   margin-top: 60px;
 }
-.konten-kiri2{
+.konten-kiri2 {
   margin-top: 30px;
 }
 .isi-kiri1,
@@ -649,7 +714,7 @@ button {
 .isi-kiri7,
 .isi-kiri9,
 .isi-kiri11,
-.isi-kiri13{
+.isi-kiri13 {
   border: 2px solid #104c70;
   border-radius: 10px;
   margin-right: 20px;
@@ -660,50 +725,43 @@ button {
 .isi-kiri8,
 .isi-kiri10,
 .isi-kiri12,
-.isi-kiri14{
- 
+.isi-kiri14 {
   border: 2px solid #104c70;
   border-radius: 10px;
   margin-left: 20px;
 }
-.isi-kiri1{
+.isi-kiri1 {
   padding: 5px 30px;
-
 }
-.isi-kiri2{
+.isi-kiri2 {
   padding: 5px 60px;
-  
 }
 .isi-kiri3,
 .isi-kiri6,
 .isi-kiri8,
 .isi-kiri9,
-.isi-kiri10{
+.isi-kiri10 {
   padding: 5px 35px;
-  
 }
 .isi-kiri4,
 .isi-kiri5,
-.isi-kiri13{
+.isi-kiri13 {
   padding: 5px 50px;
-  
 }
-.isi-kiri7{
+.isi-kiri7 {
   padding: 5px 45px;
-  
 }
 .isi-kiri11,
-.isi-kiri14{
+.isi-kiri14 {
   padding: 5px 40px;
-  
 }
-.isi-kiri12{
+.isi-kiri12 {
   padding: 5px 20px;
 }
-.artikel1{
+.artikel1 {
   margin-top: 60px;
 }
-.artikel2{
+.artikel2 {
   margin-top: 30px;
 }
 .isi-artikel1,
@@ -712,9 +770,9 @@ button {
 .isi-artikel7,
 .isi-artikel9,
 .isi-artikel11,
-.isi-artikel13{
-  border: 2px solid #104c70; 
-  border-radius: 10px; 
+.isi-artikel13 {
+  border: 2px solid #104c70;
+  border-radius: 10px;
   margin-right: 20px;
 }
 .isi-artikel2,
@@ -723,46 +781,63 @@ button {
 .isi-artikel8,
 .isi-artikel10,
 .isi-artikel12,
-.isi-artikel14{
-  border: 2px solid #104c70; 
-  border-radius: 10px; 
+.isi-artikel14 {
+  border: 2px solid #104c70;
+  border-radius: 10px;
   margin-left: 20px;
 }
-.isi-artikel1{
+.isi-artikel1 {
   padding: 5px 30px;
 }
-.isi-artikel2{
+.isi-artikel2 {
   padding: 5px 60px;
 }
 .isi-artikel3,
 .isi-artikel6,
 .isi-artikel8,
 .isi-artikel9,
-.isi-artikel10{
+.isi-artikel10 {
   padding: 5px 35px;
 }
 .isi-artikel4,
 .isi-artikel5,
-.isi-artikel13{
+.isi-artikel13 {
   padding: 5px 50px;
 }
-.isi-artikel7{
+.isi-artikel7 {
   padding: 5px 45px;
 }
 .isi-artikel11,
-.isi-artikel14{
+.isi-artikel14 {
   padding: 5px 40px;
 }
-.isi-artikel12{
+.isi-artikel12 {
   padding: 5px 20px;
 }
-
-
 
 /*penutup artikel.html/*
 
 
 /* responsive*/
+
+@media screen and (min-width: 1024px) {
+  .img-misi figure {
+    display: inline-block;
+    width: 20vw;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-family: "Poppins";
+    font-weight: bold;
+    /* display: flex; */
+  }
+
+  .img-misi img {
+    width: 20vw;
+    height: auto;
+    border-radius: 30px;
+    margin-bottom: 20px;
+  }
+}
 
 @media (max-width: 952px) {
   label.logo {
@@ -906,6 +981,9 @@ button {
   margin: 5px;
   border-radius: 2px;
 }
+article{
+  text-align: justify;
+}
 
 figcaption {
   display: flex;
@@ -997,6 +1075,21 @@ figcaption {
   margin-top: -50px;
 }
 
+.image-container1 img {
+  width: 350px;
+  height: auto;
+  object-fit: cover;
+  margin-top: 70px;
+  margin-left: 20px;
+}
+
+.image-container2 img {
+  width: 350px;
+  height: auto;
+  object-fit: cover;
+  margin-top: 60px;
+}
+
 .table-container {
   flex: 1;
   padding: 50px;
@@ -1046,7 +1139,7 @@ figcaption {
 
 .box-review {
   width: 500px;
-  height: 300px;
+  height: 350px;
   background-color: #d9d9d9;
   color: black;
   margin: 20px 10px;
@@ -1084,63 +1177,64 @@ figcaption {
 /* Detail Artikel */
 .judul-artikel {
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 30px;
   font-weight: bold;
   color: #104c70;
   padding-top: 150px;
   margin-bottom: 36px;
-  }
-  
-  .logo-back {
-  position: absolute;    
-  top: 20px; 
-  left: 20px; 
-  width: 50px; 
+}
+
+.logo-back {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 50px;
   height: auto;
   padding-top: 125px;
   margin-left: 30px;
   cursor: pointer;
-  }
-  
-  .container-berita {
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: 20px;
-      position: relative;
-  }
-  
-  .sub-berita {
-      color: #104c70;
-      position: absolute;
-      top: 20px;
-      left: 20px;
-  }
-  
-  .sosial-media {
-      position: absolute;
-      top: 20px;
-      right: 20px; 
-  }
-  
-  .sosial-media i {
-      font-size: 36px; 
-      color: #104c70; 
-  }
-  
-  .gambar-berita {
-      width: 100%;
-      height: 500px;
-      margin-top: 75px;
-  }
-  
-  .detail-berita {
-      font-size: 14px;
-      color: #000;
-      text-align: justify;
-      margin-top: 20px;
-  }
+}
 
+.container-berita {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+}
+
+.sub-berita {
+  color: #104c70;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.sosial-media {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.sosial-media i {
+  font-size: 36px;
+  color: #104c70;
+}
+
+.gambar-berita {
+  width: 100%;
+  height: 400px;
+  margin-top: 75px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.detail-berita {
+  font-size: 14px;
+  color: #000;
+  text-align: justify;
+  margin-top: 20px;
+}
 
 /* form */
 * {
@@ -1337,10 +1431,9 @@ body {
 .form-select {
   font-weight: bold;
   margin-right: 20%;
-  margin-top: 12%;
+  margin-top: 19%;
   margin-left: 20px;
-  border: 1px solid;
-  border-width: 14px;
+  border: 20px;
+  border-width: 2px;
   border-radius: 5px;
-  color: #6a64f1;
 }
